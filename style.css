@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    width: 100%;
+    height: 80px;
+    background-color: #575781da;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navigation_container{
+    width: 60%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navigation_logo{
+    color: #fff;
+    font-weight: 900;
+    flex: 1;
+}
+
+.navigation_logo > span{
+    color: #ed563b;
+    font-weight: 900;
+}
+
+.navigation_collection{
+    display: flex;
+}
+
+.collection_item{
+    margin: 0px 45px;
+    list-style-type: none;
+}
+
+.collection_item > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation_button{
+    padding: 11px 17px;
+    background-color: #ed563b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.banner{
+    position: relative;
+    z-index: 1;
+}
+
+.banner > video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner::after{
+    content: 'EASY WITH OUR GYM';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #262642d3;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.program{
+    width: 60%;
+    margin: auto;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 100vh;
+}
+
+.about_title{
+    padding-top: 100px;
+    font-weight: 900;
+}
+
+.about_title > span{
+    color: #ed563b;
+}
+
+.program > img{
+    margin-top: 20px;
+}
+
+.program > p{
+    margin-top: 10px;
+    color: gray;
+    font-size: 17px;
+}
+
+.program_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.program_item{
+    width: 550px;
+    height: 150px;
+    background-color: red;
+    margin: 10px 0px;
+}
+.wwww{
+    width: 100%;
+    height: 100%;
+}
